@@ -1,0 +1,13 @@
+#v-pills-tab{
+    height: 100vh;
+    background-color: rgb(0, 255, 221);
+    padding: 20px 30px; 
+}
+
+p{
+    font-size: 30px;
+}
+
+.ajouter{
+    margin: 10px;
+}
