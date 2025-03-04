@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#v-pills-tab{
+    height: 100vh;
+    background-color: rgb(0, 255, 221);
+    padding: 20px 3%; 
+}
+
+p{
+    font-size: 30px;
+}
+
+form, form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    row-gap: 10px;
+}
+
+form div{
+    row-gap: 7px;
+}
+
+form button{
+    width: 300px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+input, select{
+    outline: none;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.ajouter{
+    margin: 10px;
+}
+
+#v-pills-tabContent{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+}
+
+.content > svg{
+    width: 40px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tableau{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.tableau h3{
+    text-align: center;
+}
+
+.tableau table{
+    margin: 50px 0;
+}
